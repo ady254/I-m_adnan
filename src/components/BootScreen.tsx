@@ -116,7 +116,7 @@ export function BootScreen() {
               onClick={handleEnter}
               className="w-full sm:w-auto animate-[fadeIn_0.4s_ease]"
             >
-              [ ENTER MY WORLD ]
+             [ CONTINUE ]
             </PixelButton>
           )}
           {!showButton && (

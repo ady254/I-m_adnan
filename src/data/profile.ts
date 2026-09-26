@@ -9,7 +9,7 @@ export const profile = {
     "Growing Innvox",
     "Learning DSA",
     "Learning System Design",
-    "Learning about to become good engineer",
+    "Learning to become good engineer",
     "Code| Gym | Bike Ride | Code",
   ],
   stats: {
