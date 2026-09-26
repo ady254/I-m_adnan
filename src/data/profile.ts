@@ -2,20 +2,20 @@ export const profile = {
   name: "Adnan Ahmad",
   tagline: "I build things that talk back.",
   subtitle:
-    "Full-stack developer, AI builder, founder of Innvox, professional bug creator.",
-  roles: ["Developer", "Builder", "Founder", "Bug Creator", "Dreamer"],
+    "Full-stack developer, AI builder, founded of Innvox with three friends.",
+  roles: ["Developer", "Builder", "Dreamer"],
   currently: [
-    "Building Conversational AI",
+    "Building Conversational AI Agent v3",
     "Growing Innvox",
     "Learning DSA",
-    "Solving random problems",
-    "Drinking too much coffee",
-    "Overthinking everything",
+    "Learning System Design",
+    "Learning about to become good engineer",
+    "Code| Gym | Bike Ride | Code",
   ],
   stats: {
-    age: "[CONTENT TO BE ADDED]",
-    location: "[CONTENT TO BE ADDED]",
-    education: "[CONTENT TO BE ADDED]",
+    age: "21",
+    location: "New Delhi, India",
+    education: "B.Tech in Computer Science and Engineering",
     status: "Online (probably)",
     goal: "Build things that matter",
   },
@@ -25,12 +25,8 @@ I'm a developer who got tired of building things that don't talk back. So now I 
 
 Somewhere between caffeine and code, I started Innvox — my attempt at turning ideas into software that actually works (most of the time).`,
   interests: [
-    "Conversational AI",
-    "Pixel art & retro UI",
-    "Building in public",
-    "Late-night debugging",
-    "Turning bugs into features",
-    "[CONTENT TO BE ADDED]",
+    "Build product which solve real world problems",
+   
   ],
   funFacts: [
     "Once fixed a bug by turning the laptop off and on. It worked.",
@@ -39,16 +35,16 @@ Somewhere between caffeine and code, I started Innvox — my attempt at turning 
     "[CONTENT TO BE ADDED]",
   ],
   timeline: [
-    { year: "[TBD]", event: "Started coding journey", icon: "💻" },
-    { year: "[TBD]", event: "Founded Innvox", icon: "🚀" },
-    { year: "[TBD]", event: "First client project", icon: "🤝" },
-    { year: "[TBD]", event: "Started building Conversational AI", icon: "🎙️" },
+    { year: "[2024]", event: "Started coding journey", icon: "💻" },
+    { year: "[2025]", event: "Founded Innvox", icon: "🚀" },
+    { year: "[june 2025]", event: "First client project", icon: "🤝" },
+    { year: "[Jan 2026]", event: "Started building Conversational AI", icon: "🎙️" },
     { year: "Now", event: "Still building, still breaking things", icon: "⚡" },
   ],
   contact: {
     email:"itsadnanahmad5@gmail.com",
     linkedin: "www.linkedin.com/in/adnanahmad-io",
-    github: "[CONTENT TO BE ADDED]",
-    instagram: "[CONTENT TO BE ADDED]",
+    github: "https://github.com/ady254",
+    instagram: "https://www.instagram.com/adnanahmad.io/",
   },
 };
