@@ -6,7 +6,7 @@ export interface SkillCategory {
 export const skillInventory: SkillCategory[] = [
   {
     name: "LANGUAGES",
-    skills: ["Python", "JavaScript", "TypeScript"],
+    skills: ["Python", "TypeScript"],
   },
   {
     name: "FRONTEND",
@@ -14,18 +14,33 @@ export const skillInventory: SkillCategory[] = [
   },
   {
     name: "BACKEND",
-    skills: ["FastAPI", "Node.js", "Express"],
+    skills: ["FastAPI", "REST APIs"],
   },
   {
     name: "DATABASE",
-    skills: ["PostgreSQL", "MongoDB", "Redis"],
+    skills: ["PostgreSQL", "SQLAlchemy", "Alembic", "Redis"],
   },
   {
-    name: "DEVOPS",
-    skills: ["Docker", "GitHub Actions", "GCP", "AWS"],
+    name: "CLOUD / DEVOPS",
+    skills: ["GCP", "Docker", "Terraform"],
   },
   {
-    name: "AI / APIs",
-    skills: ["Gemini", "ElevenLabs", "Deepgram", "LiveKit", "n8n", "Twilio"],
+    name: "AI / VOICE",
+    skills: [
+      "Gemini",
+      "ElevenLabs",
+      "Deepgram",
+      "LiveKit",
+      "Twilio",
+      "WebRTC",
+    ],
+  },
+  {
+    name: "TOOLS & CONCEPTS",
+    skills: ["Git", "GitHub", "JWT Auth", "RBAC", "Claude Code", "Cursor"],
+  },
+  {
+    name: "CS FUNDAMENTALS",
+    skills: ["DSA", "OOP", "DBMS", "OS", "CN", "System Design"],
   },
 ];

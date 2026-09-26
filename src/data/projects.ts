@@ -13,74 +13,76 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "conversational-calling-ai",
-    name: "Conversational Calling AI",
+    id: "ai-voice-calling-platform",
+    name: "AI Voice Calling Platform",
     category: "AI",
     description:
-      "AI voice agents that can call, talk, understand conversations and get things done.",
+      "AI voice agent backend for automated outbound campaigns — call, talk, understand, and execute.",
     techStack: [
       "FastAPI",
       "Python",
-      "TypeScript",
       "PostgreSQL",
+      "Redis",
+      "ARQ",
+      "Docker",
+      "Twilio",
       "LiveKit",
-      "ElevenLabs",
       "Deepgram",
       "Gemini",
-      "Docker",
-      "GCP",
-      "Twilio",
+      "ElevenLabs",
     ],
-    status: "In Development",
+    status: "Personal Project · 2026",
     featured: true,
-    details:
-      "Building voice agents that don't just respond — they act. Calls, understands context, executes tasks. The future of conversational interfaces.",
+    details: `Built a backend for an AI voice agent platform for automated outbound campaigns.
+
+• Async REST API with FastAPI + PostgreSQL — load-tested for 100 concurrent users with 0% error.
+• Outbound call orchestration via Redis and ARQ workers.
+• Low-latency WebRTC pipeline: Deepgram (Nova-3), Gemini 2.5 Flash, ElevenLabs Turbo (~1.0s latency).
+• Local-dialect support (including Arabic) with ~690ms Time-To-First-Byte.
+• Multi-service architecture containerized with Docker.`,
   },
   {
-    id: "innvox-solutions",
-    name: "Innvox Solutions",
+    id: "innvox-manufacturing",
+    name: "Manufacturing Catalog & Quotes",
     category: "Agency",
     description:
-      "The agency arm — web development, AI automation, and digital products for clients.",
-    techStack: ["React", "Next.js", "FastAPI", "Python", "PostgreSQL"],
-    status: "Active",
-    details: "[CONTENT TO BE ADDED]",
+      "Web app with integrated catalog and WhatsApp quote generation for a manufacturing client.",
+    techStack: ["React", "Next.js", "WhatsApp Integration"],
+    status: "Shipped · InnVox",
+    details:
+      "Reduced quote turnaround from 2 days to under 2 hours. Generated 300+ leads and ₹25 lakh+ revenue for the client.",
+  },
+  {
+    id: "innvox-ecommerce",
+    name: "Retailer E-Commerce Migration",
+    category: "Agency",
+    description:
+      "Migrated an Instagram-based retailer to a centralized e-commerce platform with admin, payments, and inventory.",
+    techStack: ["React", "Next.js", "PostgreSQL"],
+    status: "Shipped · InnVox",
+    details:
+      "Reduced order processing time from ~4 hours to under 1 hour with a unified admin panel.",
+  },
+  {
+    id: "innvox-admissions",
+    name: "Multilingual Admissions App",
+    category: "Web",
+    description:
+      "Admissions web app with multilingual support and automated email workflows.",
+    techStack: ["React", "Next.js", "Email Automation"],
+    status: "Shipped · InnVox",
+    details:
+      "Increased admissions by ~25% and cut response time to same-day.",
   },
   {
     id: "trackshift-2026",
-    name: "Trackshift 2026",
-    category: "Web",
-    description: "[CONTENT TO BE ADDED]",
-    techStack: ["React", "TypeScript", "Tailwind"],
-    status: "[CONTENT TO BE ADDED]",
-    details: "[CONTENT TO BE ADDED]",
-  },
-  {
-    id: "ai-automation",
-    name: "AI Automation Projects",
-    category: "AI",
-    description: "Various AI and automation projects — n8n workflows, LLM integrations, and more.",
-    techStack: ["Python", "n8n", "Gemini", "FastAPI"],
-    status: "Ongoing",
-    details: "[CONTENT TO BE ADDED]",
-  },
-  {
-    id: "web-projects",
-    name: "Web Projects",
-    category: "Web",
-    description: "Full-stack web applications and client websites.",
-    techStack: ["React", "Next.js", "Tailwind", "Node.js"],
-    status: "Various",
-    details: "[CONTENT TO BE ADDED]",
-  },
-  {
-    id: "hackathon",
-    name: "Hackathon Projects",
+    name: "TrackShift Innovation Hackathon",
     category: "Hackathons",
-    description: "Built under pressure, shipped in 48 hours (maybe).",
-    techStack: ["React", "Python", "Firebase"],
-    status: "Completed",
-    details: "[CONTENT TO BE ADDED]",
+    description: "Finalist in the TrackShift Innovation Hackathon Challenge.",
+    techStack: ["React", "TypeScript"],
+    status: "Finalist",
+    details:
+      "Built under hackathon pressure — shipped an innovation-focused solution and reached the finalist stage.",
   },
 ];
 

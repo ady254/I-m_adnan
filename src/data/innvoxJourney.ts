@@ -10,65 +10,64 @@ export const innvoxJourney: JourneyStep[] = [
     id: "idea",
     title: "THE IDEA",
     description:
-      "Innvox started from a simple thought: what if I could turn caffeine into software? Web dev, AI automation, digital products — all under one roof.",
+      "InnVox started with friends who wanted to digitize workflows for small and mid-size businesses — web apps, automation, and products that actually save time.",
     icon: "💡",
   },
   {
     id: "first-client",
     title: "FIRST CLIENT",
     description:
-      "[CONTENT TO BE ADDED] — The moment theory became reality. First real project, first real deadline, first real panic.",
+      "Manufacturing client needed quotes faster than 2-day email threads. We built a catalog + WhatsApp quote system and watched turnaround drop to under 2 hours.",
     icon: "🤝",
   },
   {
     id: "first-revenue",
     title: "FIRST REVENUE",
     description:
-      "[CONTENT TO BE ADDED] — Proof that someone actually valued the work. Motivation unlocked.",
+      "Real projects, real impact — 300+ leads and ₹25 lakh+ revenue generated for one client alone. Caffeine officially became a business expense.",
     icon: "💰",
   },
   {
     id: "failures",
     title: "FAILURES & BUGS",
     description:
-      "Not everything worked. Projects broke. Clients ghosted. Code caught fire. Each failure was a free lesson (expensive, but free).",
+      "Not every migration was smooth. Scope grew. Edge cases appeared at 1 AM. Each mess taught us to document better and test earlier.",
     icon: "🐛",
   },
   {
     id: "learning",
     title: "LEARNING",
     description:
-      "Stack grew. Skills sharpened. Learned that 'it works on my machine' is not a valid deployment strategy.",
+      "E-commerce migrations, multilingual admissions flows, admin panels — each project added stack depth and client-trust scars.",
     icon: "📚",
   },
   {
     id: "projects",
     title: "PROJECTS",
     description:
-      "From web apps to AI automation — Innvox took on projects across domains. Each one added a new scar and a new skill.",
+      "Manufacturing quotes, retailer e-commerce, admissions automation — InnVox shipped across domains while staying part-time and student-paced.",
     icon: "🔧",
   },
   {
     id: "today",
     title: "INNVOX TODAY",
     description:
-      "Growing. Building. Still caffeinated. Focused on AI, web development, and helping businesses ship faster.",
+      "Jun 2025 – Present · Developer at InnVox, New Delhi. Still building for SMBs — faster workflows, less manual chaos.",
     icon: "🚀",
   },
 ];
 
 export const innvoxServices = [
   "Web Development",
-  "AI Automation",
-  "Digital Products",
-  "Custom Software",
-  "[CONTENT TO BE ADDED]",
+  "E-Commerce Platforms",
+  "WhatsApp & Quote Automation",
+  "Multilingual Web Apps",
+  "Admin Panels & Workflows",
 ];
 
 export const innvoxLessons = [
-  "Ship early, fix later (within reason)",
-  "Communication > Code (sometimes)",
-  "Every bug is a story",
-  "Clients remember how you made them feel",
-  "[CONTENT TO BE ADDED]",
+  "Speed for clients beats perfect architecture (until it doesn't)",
+  "WhatsApp integrations can replace days of email ping-pong",
+  "Same-day response time wins admissions — and trust",
+  "Every bug is a story (usually told at 2 AM)",
 ];

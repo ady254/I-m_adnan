@@ -19,7 +19,9 @@ const links = [
     icon: Linkedin,
     href: profile.contact.linkedin.startsWith("[")
       ? undefined
-      : profile.contact.linkedin,
+      : profile.contact.linkedin.startsWith("http")
+        ? profile.contact.linkedin
+        : `https://${profile.contact.linkedin}`,
   },
   {
     label: "GITHUB",
